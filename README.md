@@ -25,7 +25,7 @@
 - Input n ถ้าน้อยกว่า 0 เช็คว่า n เท่ากับ
 
 #4
-สร้างฟังก์ชั้น cheackPassword โดยรับค่า password ในหน่วย string ส่งค่ากลับเป็น string ใช้ if password = "abc12345" ให้ Output ออกมาเป็น ture นอกจากนี้
+สร้างฟังก์ชั้น cheackPassword โดยรับค่า password ในหน่วย string ส่งค่ากลับเป็น string ใช้ if (password.Length >= 8 && password == "abc12345") ให้ Output ออกมาเป็น ture นอกจากนี้
 ออกมาเป็น false
 สร้าง Method เชื่อมโยงกับ AssignmentClass 
 - Input password ในหน่วย string โดย Input ค่าเป็น abc123 เช็ค ว่า password ส่งค่ากลับเป็น false
